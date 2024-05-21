@@ -24,4 +24,6 @@ def draw_koch_fig(order, size = 300):
     window.mainloop()
 
 if __name__ == "__main__":
-    draw_koch_fig(4)
+    print("Введіть глибину рекурсії:")
+    inp = int(input())
+    draw_koch_fig(inp)
